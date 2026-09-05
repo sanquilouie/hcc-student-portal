@@ -1,0 +1,11 @@
+# Local credentials/configuration; the committed example contains placeholders only.
+/.env
+/.env.*
+!/.env.example
+/*.local.php
+/*.local.ini
+# Editor identity and temporary workbook ownership files.
+~$*
+# Local database backup variants; the original sanitized SQL paths stay included.
+/*.sql.bak
+/*.sql.gz
